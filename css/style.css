@@ -1232,3 +1232,232 @@ html {
     height: 160px;
     border-radius: 25px;
 }
+#main_title {
+    padding-top: 50px;
+	font-family: 'Nunito';
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	color:#234CAD;
+}
+#body_title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+	font-family: Nunito;
+	font-size: 16px;
+	text-align: center;
+	color:#234CAD;
+}
+.pricing {
+    margin-top: 40px ;
+}
+.pricing-table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+#body_text_price1 {
+	font-family: Nunito;
+	font-size: 30px;
+    font-weight: bold;
+	text-align: center;
+    margin-top: 30px;
+	color:#234CAD;
+}
+#body_text_price2 {
+	font-family: Nunito;
+	font-size: 20px;
+    font-weight: bold;
+	text-align: center;
+    margin-top: 10px;
+	color:#234CAD;
+}
+.pricing-card{
+    flex: 1;
+    width: 380px;
+    height: 380px;
+    background-color: #F2F6FF;
+    margin: 20px 10px;
+    text-align: center;
+    overflow: hidden;
+    color: #ffffff;
+    transition: .3s linear;
+    border-radius: 60px;
+    transition: .4s linear;     
+}
+.pricing-card:hover {
+    outline: none;
+    box-shadow: 0 0 0 4px #234cad;
+} 
+.pricing-card-hover{
+    padding: 0px 100%;
+    transition: .4s linear;
+}
+.pricing-card:hover .pricing-card-hover {
+    outline: none;
+    box-shadow: 0 0 0 26em #fff;
+    border-color: #234CAD;
+} 
+.price{
+    font-size: 56px;
+    font-weight: bold;
+    color: #234CAD;
+    margin: 20px 0;
+} 
+.order-btn {
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 3px solid #F2F6FF;
+    background-color: #fff;
+    color: #234cad;
+    padding: 20px 80px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .4s linear;
+}
+.order-btn:hover {
+    border-color: #234cad;
+    content: "Get Sarted";
+}
+@media screen and (max-width:1100px)
+{
+    .pricing-card{
+        flex: 50%;
+    }
+}
+.newsletter {
+    margin-top: 100px;
+    height: 350px;
+    background-color: var(--second-color);
+    border-radius: 60px;
+}
+.newsbutton {
+    margin: 250px;
+    border-radius: 20px;
+}
+  .content {
+    width: 0 auto;
+    top: 20px;
+    height: 60px;
+    overflow: hidden;
+  } 
+  .subscription {
+    position: relative;
+    margin: 0 auto;
+    width: 40%;
+    height: 100%;
+  }
+  .subscription .add-email{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0 20px;
+  }
+  .arrow {
+    margin-top: 10px;
+    width: 15px;
+    height: 25px;
+  }
+  .subscription .submit-email {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    height: calc(80% - 2px);
+    width: 50px;
+    border: none;
+    border-radius: 10px;
+    margin: o auto;
+    padding: 0 20px;
+    cursor: pointer;
+    background: #234CAD;
+    color: #fff;
+    transition: width .35s ease-in-out,
+      background .35s ease-in-out;
+  }
+  .subscription.done .submit-email {
+    width: calc(97% - 2px);
+    background: #234CAD;
+  }
+  .subscription .submit-email .before-submit,
+  .subscription .submit-email .after-submit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 38px;
+    transition: visibility .35s ease-in-out,
+      opacity .35s ease-in-out;
+  }
+  .subscription.done .submit-email .before-submit,
+  .subscription:not(.done) .submit-email .after-submit {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .subscription .submit-email .after-submit {
+    transition-delay: .35s;
+  }
+  .subscription:not(.done) .submit-email .before-submit,
+  .subscription.done .submit-email .after-submit {
+    visibility: visible;
+    opacity: 1;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul {
+    list-style: none;
+  }
+  .footer {
+    padding:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .footer-col {
+    width: 25%;
+    padding-left: 110px;
+  }
+  .footer-col h4 {
+    font-size: 20px;
+    color: #234CAD;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: bold;
+    position: relative;
+  }
+  .footer-col ul li a {
+    font-size: 13px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 600;
+    color: #234CAD;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover {
+    color: black;
+    padding-left: 8px;
+  }
+  @media (max-width: 767px) {
+    .footer-col {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+  }
+  @media (max-width: 574px) {
+    .footer-col {
+      width: 100%;
+    }
+  }
