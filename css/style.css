@@ -16,6 +16,9 @@
 html {
     overflow-x: hidden;
 }
+.hidden-ovrflw {
+    overflow-y: hidden;
+}
 .container {
     max-width: 1240px;
     margin: 0 auto;
@@ -84,7 +87,9 @@ html {
     color: var(--third-color);
     font-weight: 600;
 }
-
+.d-none {
+    display: none;
+}
 .home {
     display: flex;
     height: 575px;

@@ -1,0 +1,78 @@
+#bg_login_register {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    width: 0;
+    height: 0;
+    background-color: rgba(0, 0, 0, .9);
+}
+#bg_login_register.active {
+    width: 100%;
+    height: 100%;
+}
+.form-group {
+    width: 100%;
+    margin-bottom: .8rem;
+}
+.form-group label {
+    display: block;
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-size: 1rem;
+}
+.form-group .form-control {
+    width: 100%;
+    padding: .5rem .9rem;
+    outline-color: #234CAD;
+    border: 1px solid #234CAD;
+    border-radius: 2px;
+}
+.form-button{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.btn_close{
+    padding: .3rem .8rem;
+    background-color: #F2F6FF;
+    cursor: pointer;
+    margin-right: .5rem;
+    border: 2px solid #234CAD;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+.btn_action {
+    padding: .3rem .8rem;
+    background-color: #234CAD;
+    cursor: pointer;
+    margin-right: .5rem;
+    border: 2px solid #234CAD;
+    font-size: 1rem;
+    border-radius: 3px;
+    color: #fff;
+}
+
+/* login form */
+#login_section {
+    min-width: 30%;
+    position: absolute;
+    z-index: 100;
+    background-color: #fff;
+    top: -50rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    transition: .3s;
+}
+#login_section.active {
+    top: 10rem;
+}
+#login_section h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
