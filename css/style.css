@@ -64,8 +64,19 @@ html {
     font-weight: 700;
     padding-top: 11px;
 }
+.nav-wrapper .menu-wrapper #profile-btn{
+    /* display: none; */
+    color: var(--third-color);
+    border: 2px solid none;
+    background-color: var(--second-color);
+    /* border-radius: 25px; */
+    height: 50px;
+    width: 135px;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 11px;
+}
 .nav-wrapper .menu-wrapper #logout-btn{
-    display: none;
     color: var(--third-color);
     border: 2px solid none;
     background-color: var(--second-color);

@@ -74,5 +74,26 @@
     font-size: 2rem;
     margin-bottom: 1rem;
 }
-
-
+/* register form */
+#register_section {
+    min-width: 30%;
+    position: absolute;
+    z-index: 100;
+    background-color: #fff;
+    top: -50rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    transition: .3s;
+}
+#register_section.active {
+    top: 10rem;
+}
+#register_section h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.d-none {
+    display: none;
+}
