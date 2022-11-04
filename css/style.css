@@ -15,6 +15,7 @@
 }
 html {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 .hidden-ovrflw {
     overflow-y: hidden;
@@ -97,24 +98,26 @@ html {
 .nav-wrapper .menu-wrapper .menu a{
     color: var(--third-color);
     font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
 }
 .d-none {
     display: none;
 }
-.home {
+#home {
     display: flex;
     height: 575px;
     background-color: var(--second-color);
     border-radius: 60px;
 }
-.container .home h1{
+.container #home h1{
     margin-left: 100px;
     padding-top: 108px;
     color: #234CAD;
     font-weight: 700;
     font-size: 48px;
 }
-.container .home h4{
+.container #home h4{
     color: var(--third-color);
     font-weight: 400;
     font-size: 16px;
@@ -123,11 +126,11 @@ html {
     width: 304px;
     line-height: 26px;
 }
-.home .btn-getapp {
+#home .btn-getapp {
     margin-left: 100px;
     margin-top: 50px;
 }
-.home .btn-getapp a{
+#home .btn-getapp a{
     color: var(--third-color);
     padding: 15px 40px 15px 40px;
     border: 2px solid var(--third-color);
@@ -627,7 +630,7 @@ html {
 }
 .sc_1 i {
     padding-top: 34px;
-    font-size: 39px;
+    font-size: 28px;
     color: var(--third-color);
 }
 .sc_2 {
@@ -646,7 +649,7 @@ html {
     line-height: 36px
 }
 
-.getapp {
+#getapp {
     display: flex;
     margin-left: 113px;
     margin-top: 157px;
@@ -973,8 +976,8 @@ html {
 }
 .trf2_c {
     position: absolute;
-    margin-top: 15px;
-    margin-left: 48px;
+    margin-top: 20px;
+    margin-left: 64px;
     width: 16px;
     height: 16px;
     background-color: var(--third-color);
@@ -1173,7 +1176,7 @@ html {
     border-radius: 50%;
     margin-left: -8PX;
 }
-.increase{
+#increase{
     margin-top: 100px;
     display: flex;
     margin-left: 100px;
@@ -1248,7 +1251,7 @@ html {
     height: 160px;
     border-radius: 25px;
 }
-#main_title {
+.main_title {
     padding-top: 50px;
 	font-family: 'Nunito';
 	font-size: 48px;
@@ -1256,7 +1259,7 @@ html {
 	text-align: center;
 	color:#234CAD;
 }
-#body_title {
+.body_title {
     padding-top: 20px;
     padding-bottom: 20px;
 	font-family: Nunito;
@@ -1274,7 +1277,7 @@ html {
     width: 100%;
     height: auto;
 }
-#body_text_price1 {
+.body_text_price1 {
 	font-family: Nunito;
 	font-size: 30px;
     font-weight: bold;
@@ -1282,7 +1285,7 @@ html {
     margin-top: 30px;
 	color:#234CAD;
 }
-#body_text_price2 {
+.body_text_price2 {
 	font-family: Nunito;
 	font-size: 20px;
     font-weight: bold;
@@ -1345,7 +1348,7 @@ html {
         flex: 50%;
     }
 }
-.newsletter {
+#newsletter {
     margin-top: 100px;
     height: 350px;
     background-color: var(--second-color);
