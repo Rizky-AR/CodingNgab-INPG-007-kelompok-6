@@ -285,3 +285,26 @@ function logout() {
     localStorage.removeItem('login');
     sessionStorage.removeItem('login');
 }
+const darkBtn = document.querySelector('.icon');
+const body = document.querySelector('body');
+
+const darkmode = () =>{
+  body.classList.toggle('dark')
+}
+
+darkBtn.addEventListener('click', () =>{
+  setDarkMode = localStorage.getItem('dark');
+  if(setDarkMode !== "on"){
+    darkmode();
+    setDarkMode = localStorage.setItem('dark', 'on');
+  }else{
+    darkmode();
+    setDarkMode = localStorage.setItem('dark', 'null');
+  }
+
+});
+
+let setDarkMode = localStorage.getItem('dark');
+if(setDarkMode === 'on'){
+  darkmode();
+}
