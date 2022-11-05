@@ -308,6 +308,7 @@ html {
     font-weight: 400;
     font-size: 12px;
     line-height: 21px;
+    margin-left: 0;
 }
 .k3_3 {
     display: flex;
