@@ -297,9 +297,11 @@ darkBtn.addEventListener('click', () =>{
   if(setDarkMode !== "on"){
     darkmode();
     setDarkMode = localStorage.setItem('dark', 'on');
+    darkBtn.src = "img/sun.png"
   }else{
     darkmode();
     setDarkMode = localStorage.setItem('dark', 'null');
+    darkBtn.src = "img/moon.png"
   }
 
 });
